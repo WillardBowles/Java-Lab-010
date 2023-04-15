@@ -87,6 +87,9 @@ Wolf makes sound HOWL!!!
 * Trace through the code in WeatherStation and make sure you understand what you have to work with!
 * Look at the Display.java **interface** and in your own words, write below why you think we are declaring an **interface**.
 
+The Display.java interface is likely being declared to define a set of methods that classes implementing this interface interact with. This lets different display implementations be created and used with the WeatherStation class without modifying the existing code.
+
+
 ## Part 2 - Create 3 Classes that **Implement** Display.java
 
 ![Program Design](images/uml_model.png)
